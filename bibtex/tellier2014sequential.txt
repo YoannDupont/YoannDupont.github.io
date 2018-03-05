@@ -1,0 +1,6 @@
+@inproceedings{tellier2014sequential,
+  title={{Sequential patterns of POS labels help to characterize language acquisition}},
+  author={Tellier, Isabelle and Makhlouf, Zineb and Dupont, Yoann},
+  booktitle={DMNLP (ECML/PKDD Workshop)},
+  year={2014}
+}

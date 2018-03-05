@@ -1,0 +1,8 @@
+@article{tellier2013apprentissage,
+  title={Symbolic and statistical learning for chunking: comparison and combinations (Apprentissage symbolique et statistique pour le chunking: comparaison et combinaisons)[in French]},
+  author={Tellier, Isabelle and Dupont, Yoann},
+  journal={Proceedings of TALN 2013 (Volume 1: Long Papers)},
+  volume={1},
+  pages={19--32},
+  year={2013}
+}

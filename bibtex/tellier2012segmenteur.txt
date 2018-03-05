@@ -1,0 +1,7 @@
+@inproceedings{tellier2012segmenteur,
+  title={{Un segmenteur-{\'e}tiqueteur et un chunker pour le fran{\c{c}}ais (A Segmenter-POS Labeller and a Chunker for French)[in French]}},
+  author={Tellier, Isabelle and Dupont, Yoann and Courmet, Arnaud},
+  booktitle={Proceedings of the Joint Conference JEP-TALN-RECITAL 2012, volume 5: Software Demonstrations},
+  pages={7--8},
+  year={2012}
+}

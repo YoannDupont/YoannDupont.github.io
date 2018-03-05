@@ -1,0 +1,7 @@
+@inproceedings{tellier2014peut,
+  title={{Peut-on bien chunker avec de mauvaises {\'e}tiquettes POS?}},
+  author={Tellier, Isabelle and Eshkol-Taravella, Iris and Dupont, Yoann and Wang, Ilaine},
+  booktitle={TALN 2014},
+  pages={125--136},
+  year={2014}
+}

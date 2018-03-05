@@ -1,0 +1,7 @@
+@inproceedings{dupont2017etiqueteur,
+  title={{Un {\'e}tiqueteur en ligne du fran{\c{c}}ais}},
+  author={Dupont, Yoann and Plancq, Cl{\'e}ment},
+  booktitle={24e Conf{\'e}rence sur le Traitement Automatique des Langues Naturelles (TALN)},
+  pages={15},
+  year={2017}
+}

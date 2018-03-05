@@ -1,0 +1,8 @@
+@inproceedings{tellier2013adapt,
+  title={{Adapt a Text-Oriented Chunker for Oral Data: How Much Manual Effort is Necessary?}},
+  author={Tellier, Isabelle and Dupont, Yoann and Eshkol, Iris and Wang, Ilaine},
+  booktitle={International Conference on Intelligent Data Engineering and Automated Learning},
+  pages={226--233},
+  year={2013},
+  organization={Springer}
+}

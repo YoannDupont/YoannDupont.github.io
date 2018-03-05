@@ -1,0 +1,6 @@
+@inproceedings{dupont2017reseaux,
+  title={{R{\'e}seaux neuronaux profonds pour l'{\'e}tiquetage de s{\'e}quences}},
+  author={Dupont, Yoann and Dinarelli, Marco and Tellier, Isabelle},
+  booktitle={Traitement Automatique des Langues Naturelles (TALN)},
+  year={2017}
+}

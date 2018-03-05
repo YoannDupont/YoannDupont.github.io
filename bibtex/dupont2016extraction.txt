@@ -1,0 +1,6 @@
+@inproceedings{dupont2016extraction,
+  title={{Extraction automatique d'affixes pour la reconnaissance d'entit{\'e}s nomm{\'e}es chimiques}},
+  author={Dupont, Yoann and Tellier, Isabelle and Lautier, Christian and Dinarelli, Marco},
+  booktitle={EGC},
+  year={2016}
+}

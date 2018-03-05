@@ -1,0 +1,8 @@
+@article{dupont2014reconnaisseur,
+  title={A Named Entity recognizer for French (Un reconnaisseur d’entit{\'e}s nomm{\'e}es du Fran{\c{c}}ais)[in French]},
+  author={Dupont, Yoann and Tellier, Isabelle},
+  journal={Proceedings of TALN 2014 (Volume 3: System Demonstrations)},
+  volume={3},
+  pages={40--41},
+  year={2014}
+}

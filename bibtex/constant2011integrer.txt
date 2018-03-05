@@ -1,0 +1,8 @@
+@inproceedings{constant2011integrer,
+  title={{Int{\'e}grer des connaissances linguistiques dans un CRF: application {\`a} l'apprentissage d'un segmenteur-{\'e}tiqueteur du fran{\c{c}}ais}},
+  author={Constant, Matthieu and Tellier, Isabelle and Duchier, Denys and Dupont, Yoann and Sigogne, Anthony and Billot, Sylvie},
+  booktitle={TALN},
+  volume={1},
+  pages={321},
+  year={2011}
+}

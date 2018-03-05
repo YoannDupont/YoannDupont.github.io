@@ -1,0 +1,6 @@
+@inproceedings{makhlouf2014caracteriser,
+  title={{Caract{\'e}riser l'acquisition d'une langue avec des patrons d'{\'e}tiquettes morpho-syntaxiques}},
+  author={Makhlouf, Zineb and Dupont, Yoann and Tellier, Isabelle},
+  booktitle={JADT (JOURN{\'E}E D'ANALYSE DES DOCUMENTS TEXTUELS)},
+  year={2014}
+}
