@@ -18,7 +18,7 @@ I am the main developer of [Segmenteur étiqueteur makovien (SEM)](https://githu
 
 # My PhD Thesis
 
-Informations about my thesis are available [here](phd-en). It shall soon be available on [TEL archives](https://tel.archives-ouvertes.fr/).
+Informations about my thesis are available [here](phd-en). It is available (in French) on [TEL archives](https://tel.archives-ouvertes.fr/tel-01772268/document).
 
 # Free, open source projects
 

@@ -18,7 +18,7 @@ Je suis actuellement le développeur de [Segmenteur étiqueteur makovien (SEM)](
 
 # Ma thèse
 
-Les informations principales de ma thèse sont disponibles [ici](phd-fr). Elle sera bientôt rendue disponible sur [TEL archives](https://tel.archives-ouvertes.fr/).
+Les informations principales de ma thèse sont disponibles [ici](phd-fr). Elle est disponible sur [TEL archives](https://tel.archives-ouvertes.fr/tel-01772268/document).
 
 # Projets libres et open source
 

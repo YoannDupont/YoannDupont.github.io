@@ -2,7 +2,7 @@
 layout: default_fr
 ---
 
-La thèse sera bientôt rendue disponible sur [TEL archives](https://tel.archives-ouvertes.fr/).
+La thèse est disponible sur [TEL archives](https://tel.archives-ouvertes.fr/tel-01772268/document).
 
 # Ma thèse : "La structuration dans les entités nommées"
 
