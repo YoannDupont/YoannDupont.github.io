@@ -15,7 +15,7 @@ In: Revue TAL. 2017, vol. 58, no 1. (accepté)
 DUPONT, Yoann.<br />
 Exploration de traits pour la reconnaissance d’entités nommées du Français par apprentissage automatique (<span style="color:red">Best RECITAL 2017 paper award</span>).<br />
 In: TALN-RECITAL. 2017.<br />
-[[article](http://taln2017.cnrs.fr/wp-content/uploads/2017/06/actes_RECITAL_2017-Final.pdf#page=52)] [[bibtex](bibtex/dupont2017exploration.txt)]
+[[article](http://taln2017.cnrs.fr/wp-content/uploads/2017/06/actes_RECITAL_2017-Final.pdf#page=52)] [[bibtex](bibtex/dupont2017exploration.txt)] [[slides](files/slides/taln2017-Yoann_Dupont_exploration.pdf)]
 
 DUPONT, Yoann, DINARELLI, Marco et TELLIER, Isabelle.<br />
 Réseaux neuronaux profonds pour l’étiquetage de séquences.<br />

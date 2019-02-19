@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/reveal.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/theme/white.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/highlightjs/highlight.js/src/styles/vs.css">
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+<section>
+<h3 style="text-align: center">Manage plugins in python with importlib</h3>
+<hr>
+<h4 style="text-align: center">Yoann Dupont (Almanach)</h4>
+<br />
+<p style="text-align: left"><span size="6">developer meetup, Febuary 19th 2019</span></p>
+</section>
+
+<!----------------------------------------------------------------------------->
+
+<section style="text-align: left">
+<h3>Plugin management?</h3>
+<section>
+<br />
+<ul>
+    <li><b>purpose:</b> extend app with new functionalities or implement an interface (user code)</li>
+    <li><b>plugin:</b> external code to be integrated into a running program</li>
+    <li><b>plugin manager:</b> a software facility used by a running program to discover and load code, often containing hooks called by the host application</li>
+</ul>
+</section>
+</section>
+
+<!----------------------------------------------------------------------------->
+
+<section style="text-align: left">
+<h3>importlib &#151; overview</h3>
+<section>
+<ul>
+    <li>python source code for the import statement</li>
+    <li>have a built-in import system for python</li>
+    <li>give devs a tool for finding/loading code more easily</li>
+    <li>documentation is big: only a tiny part here!</li>
+    <li>more than one way to do it: differences in rationale and operation</li>
+</ul>
+</section>
+</section>
+
+<!----------------------------------------------------------------------------->
+
+<section style="text-align: left">
+<h3>importlib &#151; examples</h3>
+<section>
+<h4>naming conventions</h4>
+<pre><code class="python" data-trim contenteditable>import importlib
+import pkgutil
+
+myapp_plugins = {
+    name: importlib.import_module(name)
+    for finder, name, ispkg in pkgutil.iter_modules()
+    if name.startswith('myapp_')
+}
+</code></pre>
+</section>
+<section>
+<h4>namespace packages</h4>
+<pre><code class="python" data-trim contenteditable>import importlib
+import pkgutil
+import myapp.plugins
+
+def iter_namespace(ns_pkg):
+    return pkgutil.iter_modules(
+        ns_pkg.__path__,
+        ns_pkg.__name__ + "."
+    )
+
+myapp_plugins = {
+    name: importlib.import_module(name)
+    for finder, name, ispkg
+    in iter_namespace(myapp.plugins)
+}
+</code></pre>
+</section>
+<section>
+<h4>package metadata (setuptools)</h4>
+<pre><code class="python" data-trim contenteditable>setup(
+    ...
+    entry_points={'myapp.plugins': 'a = myapp_plugin_a'},
+    ...
+)
+</code></pre>
+<pre><code class="python" data-trim contenteditable>import pkg_resources
+
+myapp_plugins = {
+    entry_point.name: entry_point.load()
+    for entry_point
+    in pkg_resources.iter_entry_points('myapp.plugins')
+}
+</code></pre>
+</section>
+<section>
+<h4>a plugin folder (educational purpose)</h4>
+<pre><code class="python" data-trim contenteditable>import importlib
+
+def load_plugins(plugins_path):
+    modules = []
+    for file_path in plugins_path.glob("*.py"):
+        module_name = str(file_path.stem)
+        spec = importlib.util.spec_from_file_location(
+            module_name,
+            str(file_path)
+        )
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        modules.append((module_name, module))
+    return tuple(modules)
+
+myapp_plugins = {
+    module_name: module
+    for module_name, module
+    in load_plugins(myapp.USER_PLUGINS_PATH)
+}
+</code></pre>
+</section>
+</section>
+
+<!----------------------------------------------------------------------------->
+
+<section style="text-align: left">
+<h3>Ressources and related content</h3>
+<section>
+<br />
+<ul>
+    <li><a href="https://docs.python.org/3/library/importlib.html">Importlib Python Documentation</a></li>
+    <li><a href="https://packaging.python.org/guides/creating-and-discovering-plugins/">Creating and discovering plugins (PyPA)</a>
+        <ul>
+            <li>covers the basics by the Python Package Authority</li>
+        </ul>
+    </li>
+    <li><a href="https://packaging.python.org/guides/packaging-namespace-packages/">Packaging namespace packages</a>
+        <ul>
+            <li>more information about namespace packages</li>
+        </ul>
+    </li>
+    <li><a href="https://sedimental.org/plugin_systems.html">Plugin Systems (PyCon 2017)</a>
+        <ul>
+            <li>theoretical view for plugin managment</li>
+            <li>list of plugin managers: no need to roll you own</li>
+        </ul>
+    </li>
+    <li><a href="https://www.youtube.com/watch?v=ZsGFU2qh73E">Get your resources faster, with importlib.resources (PyCon 2018)</a>
+        <ul>
+            <li>non-python resources, can work with scripts also?</li>
+        </ul>
+    </li>
+</ul>
+</section>
+</section>
+
+<!----------------------------------------------------------------------------->
+
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/lib/js/head.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/js/reveal.js"></script>
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+
+        </script>
+    </body>
+</html>

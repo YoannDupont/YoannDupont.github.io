@@ -5,3 +5,5 @@ contact: yoa.dupont@gmail.com
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+github.is_project_page: true
+github.repository_url: https://github.com/YoannDupont/YoannDupont.github.io
