@@ -2,7 +2,7 @@
 layout: default
 ---
 
-This thesis shall soon be available on [TEL archives](https://tel.archives-ouvertes.fr/).
+This thesis is available (in French) on [TEL archives](https://tel.archives-ouvertes.fr/tel-01772268/document).
 
 # My PhD Thesis: "Structuration in Named Entities"
 
