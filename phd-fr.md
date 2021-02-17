@@ -2,6 +2,8 @@
 layout: default_fr
 ---
 
+[Voir cette page en anglais](phd-en)
+
 La thèse est disponible sur [TEL archives](https://tel.archives-ouvertes.fr/tel-01772268/document).
 
 # Ma thèse : "La structuration dans les entités nommées"

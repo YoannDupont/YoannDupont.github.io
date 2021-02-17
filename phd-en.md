@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[See this page in French](phd-fr)
+
 This thesis is available (in French) on [TEL archives](https://tel.archives-ouvertes.fr/tel-01772268/document).
 
 # My PhD Thesis: "Structuration in Named Entities"

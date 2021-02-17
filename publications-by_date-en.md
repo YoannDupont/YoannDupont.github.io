@@ -13,6 +13,11 @@ SinNer@Clef-Hipe2020 : Sinful adaptation of SotA models for Named Entity Recogni
 CLEF 2020 Working Notes. Working Notes of CLEF 2020 - Conference and Labs of the Evaluation Forum, Sep 2020, Thessaloniki / Virtual, Greece.<br />
 [[HAL](https://hal.inria.fr/hal-02984746)]
 
+Louis Martin, Benjamin Muller, Pedro Javier Ortiz Suárez, Yoann Dupont, Laurent Romary, et al.<br />
+CamemBERT: a Tasty French Language Model.<br />
+ACL 2020 - 58th Annual Meeting of the Association for Computational Linguistics, Jul 2020, Seattle / Virtual, United States. ⟨10.18653/v1/2020.acl-main.645⟩.<br />
+[[HAL](https://hal.inria.fr/hal-02889805)]
+
 Pedro Javier Ortiz Suárez, Yoann Dupont, Benjamin Muller, Laurent Romary, Benoît Sagot.<br />
 Establishing a New State-of-the-Art for French Named Entity Recognition.<br />
 LREC 2020 - 12th Language Resources and Evaluation Conference, May 2020, Marseille, France.<br />
