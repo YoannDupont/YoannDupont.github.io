@@ -180,19 +180,22 @@ a {
     color: $section-headings-color;
   }
   h1 {
-	border-bottom: .2em double $section-headings-line-color;
+	border-bottom: .4em double $section-headings-line-color;
   }
   h2 {
     margin-left: 1rem;
+	border-bottom: .2em solid $section-headings-line-color;
   }
   h2 {
     margin-left: 1rem;
   }
   h3 {
     margin-left: 2rem;
+	border-bottom: .1em solid $section-headings-line-color;
   }
   h4 {
     margin-left: 3rem;
+	border-bottom: .1em dashed $section-headings-line-color;
   }
   h5 {
     margin-left: 4rem;

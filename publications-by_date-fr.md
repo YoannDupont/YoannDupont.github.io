@@ -2,13 +2,55 @@
 layout: default_fr
 ---
 
+[Voir cette page en anglais](publications-by_date-en)
+
 # Publications (triées par date)
 
-## Publications à venir
+## 2020
 
-DINARELLI, Marco et DUPONT, Yoann.<br />
-Modélisation de dépendances entre étiquettes dans les réseaux neuronaux récurrents.<br />
-In: Revue TAL. 2017, vol. 58, no 1. (accepté)
+Pedro Javier Ortiz Suárez, Yoann Dupont, Gaël Lejeune, Tian Tian.<br />
+SinNer@Clef-Hipe2020 : Sinful adaptation of SotA models for Named Entity Recognition in French and German.<br />
+CLEF 2020 Working Notes. Working Notes of CLEF 2020 - Conference and Labs of the Evaluation Forum, Sep 2020, Thessaloniki / Virtual, Greece.<br />
+[[HAL](https://hal.inria.fr/hal-02984746)]
+
+Louis Martin, Benjamin Muller, Pedro Javier Ortiz Suárez, Yoann Dupont, Laurent Romary, et al.<br />
+CamemBERT: a Tasty French Language Model.<br />
+ACL 2020 - 58th Annual Meeting of the Association for Computational Linguistics, Jul 2020, Seattle / Virtual, United States. ⟨10.18653/v1/2020.acl-main.645⟩.<br />
+[[HAL](https://hal.inria.fr/hal-02889805)]
+
+Pedro Javier Ortiz Suárez, Yoann Dupont, Benjamin Muller, Laurent Romary, Benoît Sagot.<br />
+Establishing a New State-of-the-Art for French Named Entity Recognition.<br />
+LREC 2020 - 12th Language Resources and Evaluation Conference, May 2020, Marseille, France.<br />
+[[HAL](https://hal.inria.fr/hal-02617950v2)]
+
+## 2019
+
+Yoann Dupont.<br />
+Un corpus libre, évolutif et versionné en entités nommées du français.<br />
+TALN 2019 - Traitement Automatique des Langues Naturelles, Jul 2019, Toulouse, France.<br />
+[[HAL](https://hal.archives-ouvertes.fr/hal-02448590)]
+
+Aicha Soudani, Yosra Meherzi, Asma Bouhafs, Francesca Frontini, Carmen Brando, et al.<br />
+Adapting a system for Named Entity Recognition and Linking for 19th century French Novels.<br />
+Digital Humanities 2019, Jul 2019, Utrecht, Netherlands. 2019.<br />
+[[HAL](https://hal.archives-ouvertes.fr/hal-02187283)]
+
+Murielle Fabre, Yoann Dupont, Éric Villemonte de la Clergerie.<br />
+Syntactic Parsing versus MWEs: What can fMRI signal tell us.<br />
+PARSEME-FR 2019 consortium meeting, Jun 2019, Blois, France.<br />
+[[HAL](https://hal.inria.fr/hal-02272288)]
+
+## 2018
+
+Aicha Soudani, Yosra Meherzi, Asma Bouhafs, Francesca Frontini, Carmen Brando, et al..<br />
+Adaptation et évaluation de systèmes de reconnaissance et de résolution des entités nommées pour le cas de textes littéraires français du 19ème​ ​siècle.<br />
+Atelier Humanités Numériques Spatialisées (HumaNS’2018), Nov 2018, Montpellier, France.<br />
+[[HAL](https://hal.archives-ouvertes.fr/hal-01925816)]
+
+Frédéric Landragin, Marine Delaborde, Yoann Dupont, Loïc Grobol.<br />
+Description et modélisation des chaînes de référence. Le projet ANR Democrat (2016-2020) et ses avancées à mi-parcours.<br />
+Cinquième édition du Salon de l’Innovation en TAL (Traitement Automatique des Langues) et RI (Recherche d’Informations), Mai 2018, Rennes, France. 2018.<br />
+[[HAL](https://hal.archives-ouvertes.fr/hal-01797982)]
 
 ## 2017
 
@@ -38,10 +80,15 @@ Un étiqueteur en ligne du Français. session démonstration de TALN-RECITAL, 20
 
 ## 2016
 
+Frédéric Landragin, Isabelle Tellier, Yoann Dupont.<br />
+DEMOCRAT : description et modélisation des chaînes de référence : Outils pour l'annotation de corpus et le traitement automatique.<br />
+Salon Partenariats Recherche et Industries de la Langue (PAREIL), Vingt-troisième conférence sur le traitement automatique des langues naturelles (TALN 2016), Jul 2016, Paris, France. 2016.<br />
+[[HAL](https://hal.archives-ouvertes.fr/hal-01384485)]
+
 DUPONT, Yoann, TELLIER, Isabelle, LAUTIER, Christian, et DINARELLI, Marco.<br />
 Extraction automatique d’affixes pour la reconnaissance d’entités nommées chimiques.<br />
 In: EGC. 2016.<br />
-[poster](https://hal.archives-ouvertes.fr/hal-01476792/document) [[bibtex](bibtex/dupont2016extraction.txt)]
+[[poster](https://hal.archives-ouvertes.fr/hal-01476792/document)] [[bibtex](bibtex/dupont2016extraction.txt)]
 
 ## 2014
 

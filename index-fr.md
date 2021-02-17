@@ -28,3 +28,7 @@ Les informations principales de ma thèse sont disponibles [ici](phd-fr). Elle e
 
 - mes publications triées par [date](publications-by_date-fr)
 - mes publications triées par [type](publications-by_type-fr)
+
+# Enseignements
+
+- [mes enseignements](teaching-fr).
